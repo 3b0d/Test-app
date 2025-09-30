@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "WhatsΛpp",
+    "slug": "whatsapp-darkos",
+    "scheme": "whatsappdarkos",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "bundleIdentifier": "com.Abdullah.apple.DARKos.WhatsApp",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.Abdullah.apple.DARKos.WhatsApp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+		   "plugins": []
+  }
+}

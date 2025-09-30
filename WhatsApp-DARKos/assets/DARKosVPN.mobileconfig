@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>PayloadContent</key>
+  <array>
+    <dict>
+      <key>PayloadType</key>
+      <string>com.apple.vpn.managed</string>
+      <key>PayloadVersion</key>
+      <integer>1</integer>
+      <key>PayloadIdentifier</key>
+      <string>com.darkos.vpn.SolarWinds.GNS3.linux</string>
+      <key>PayloadUUID</key>
+      <string>7477-0070-21OS-CIDF</string>
+      <key>PayloadDisplayName</key>
+      <string>DΛRKos VPN</string>
+      <key>VPNType</key>
+      <string>IKEv2</string>
+      <key>IKEv2</key>
+      <dict>
+        <key>RemoteAddress</key>
+        <string>vpn.darkos-secure.net</string>
+        <key>RemoteIdentifier</key>
+        <string>MK04706PA</string>
+        <key>AuthenticationMethod</key>
+        <string>Certificate</string>
+        <key>LocalIdentifier</key>
+        <string>3bod</string>
+        <key>UseConfigurationAttributeInternalIPSubnet</key>
+        <true/>
+        <key>DeadPeerDetectionRate</key>
+        <string>medium</string>
+        <key>DisableMOBIKE</key>
+        <false/>
+        <key>DisableRedirect</key>
+        <false/>
+        <key>EnablePFS</key>
+        <true/>
+        <key>EncryptionAlgorithm</key>
+        <string>AES-256</string>
+        <key>IntegrityAlgorithm</key>
+        <string>SHA2-256</string>
+        <key>DiffieHellmanGroup</key>
+        <integer>14</integer>
+      </dict>
+    </dict>
+  </array>
+
+  <key>PayloadDisplayName</key>
+  <string>DΛRKos VPN</string>
+  <key>PayloadIdentifier</key>
+  <string>com.darkos.vpn.config</string>
+  <key>PayloadType</key>
+  <string>Configuration</string>
+  <key>PayloadUUID</key>
+  <string>DARKOS-CONFIG-UUID-5678</string>
+  <key>PayloadVersion</key>
+  <integer>1</integer>
+  <key>PayloadDescription</key>
+  <string>DΛRKos Security Lab – Military-Grade Encryption</string>
+  <key>PayloadOrganization</key>
+  <string>Abdullah (DΛRK) · Apple · PIA · Cyber Ghost</string>
+</dict>
+</plist>
